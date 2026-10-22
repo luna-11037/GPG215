@@ -663,17 +663,17 @@ MonoBehaviour:
   PlayerLayer:
     serializedVersion: 2
     m_Bits: 8
-  maxSpeed: 14
-  acceleration: 120
-  groundDeceleration: 60
-  airDeceleration: 30
-  fallAcceleration: 110
-  maxFallSpeed: 40
+  maxSpeed: 10
+  acceleration: 100
+  groundDeceleration: 50
+  airDeceleration: 25
+  fallAcceleration: 85
+  maxFallSpeed: 30
   groundingForce: -1.5
-  jumpPower: 36
+  jumpPower: 25
   jumpEndedEarlyGravity: 3
   jumpBuffer: 0.2
-  coyoteTime: 0.15
+  coyoteTime: 0.2
 --- !u!1 &1119135075
 GameObject:
   m_ObjectHideFlags: 0

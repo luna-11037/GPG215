@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 [RequireComponent (typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
@@ -6,8 +7,14 @@ public class PlayerMovement : MonoBehaviour
     //Reference to other script with the variables & stats
     [SerializeField] private ScriptableStats stats;
 
+    [SerializeField] private InputActionAsset actions;
+
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private CapsuleCollider2D col;
+
+    //Input System varibles for joystick & jump button
+    [SerializeField] private InputActionReference moveAction;
+    [SerializeField] private InputActionReference jumpAction;
 
     //Velocity variable to control our velocity before applying it to the rigidbody velocity
     private Vector2 playerVelocity;
@@ -27,12 +34,17 @@ public class PlayerMovement : MonoBehaviour
     //The distance it detects the player hitting the roof or ground
     private float grounderDistance = 0.05f;
 
-    [Header("Jump Buffering Variables")]
+    [Header("Jump Varibles (Buffering & Coyote Time stuff")]
     private bool jumpToConsume;
     private bool bufferedJumpUsable;
     private bool endedJumpEarly;
     private bool coyoteUsable;
     private float timeJumpWasPressed;
+
+    private void OnEnable()
+    {
+        actions.FindActionMap("Player").Enable();
+    }
 
     // Update is called once per frame
     void Update()
@@ -43,12 +55,10 @@ public class PlayerMovement : MonoBehaviour
 
     void CheckInput()
     {
-        Debug.Log("D pressed: " + Input.GetKey(KeyCode.D));
+        jumpDown = jumpAction.action.WasPressedThisFrame();
+        jumpHeld = jumpAction.action.IsPressed();
 
-        jumpDown = Input.GetKeyDown(KeyCode.Space);
-        jumpHeld = Input.GetKey(KeyCode.Space);
-
-        move = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        move = moveAction.action.ReadValue<Vector2>();
 
         if (jumpDown)
         {
@@ -61,10 +71,8 @@ public class PlayerMovement : MonoBehaviour
     {
         CheckCollisions();
 
-        if (jumpDown || jumpHeld)
-        {
-            HandleJump();
-        }
+       
+        HandleJump();
         HandleDirection();
         HandleGravity();
 
@@ -151,9 +159,6 @@ public class PlayerMovement : MonoBehaviour
         playerVelocity.y = stats.jumpPower;
 
         Debug.Log("Jump executed!");
-
-        jumpDown = false;
-        jumpHeld = false;
     }
 
     private void HandleDirection()

@@ -43,6 +43,8 @@ public class PlayerMovement : MonoBehaviour
 
     void CheckInput()
     {
+        Debug.Log("D pressed: " + Input.GetKey(KeyCode.D));
+
         jumpDown = Input.GetKeyDown(KeyCode.Space);
         jumpHeld = Input.GetKey(KeyCode.Space);
 
@@ -110,12 +112,12 @@ public class PlayerMovement : MonoBehaviour
 
     private bool HasBufferedJump()
     {
-        return (bufferedJumpUsable && (time < timeJumpWasPressed + stats.jumpBuffer));
+        return bufferedJumpUsable && (time < timeJumpWasPressed + stats.jumpBuffer);
     }
 
     private bool CanUseCoyote()
     {
-        return (coyoteUsable && !isGrounded && (time < frameLeftGrounded + stats.coyoteTime));
+        return coyoteUsable && !isGrounded && (time < frameLeftGrounded + stats.coyoteTime);
     }
 
     private void HandleJump()
@@ -203,6 +205,7 @@ public class PlayerMovement : MonoBehaviour
     }
     private void ApplyMovement()
     {
+        Debug.Log("Player velocity: " + playerVelocity);
         rb.linearVelocity = playerVelocity;
     }
 }

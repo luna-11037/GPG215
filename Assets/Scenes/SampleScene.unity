@@ -535,6 +535,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4ed0c1bc3e528f40a8a3b6a47013057, type: 3}
+--- !u!1001 &2124093127
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 852c77e54e0d50548a0c8f0cd006132f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.4100235
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 852c77e54e0d50548a0c8f0cd006132f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.083137
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 852c77e54e0d50548a0c8f0cd006132f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.45350078
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 852c77e54e0d50548a0c8f0cd006132f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0011829715
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 852c77e54e0d50548a0c8f0cd006132f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.21079102
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 852c77e54e0d50548a0c8f0cd006132f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9761939
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 852c77e54e0d50548a0c8f0cd006132f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.051099867
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 852c77e54e0d50548a0c8f0cd006132f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -5.697
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 852c77e54e0d50548a0c8f0cd006132f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 178.626
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 852c77e54e0d50548a0c8f0cd006132f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 24.438
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 852c77e54e0d50548a0c8f0cd006132f, type: 3}
+      propertyPath: m_Name
+      value: VegetableSamuraiCorn
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 852c77e54e0d50548a0c8f0cd006132f, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -543,3 +600,4 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 1126172251}
   - {fileID: 1167058391}
+  - {fileID: 2124093127}

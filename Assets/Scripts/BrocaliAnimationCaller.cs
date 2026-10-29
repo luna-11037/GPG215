@@ -4,26 +4,26 @@ using UnityEngine.InputSystem;
 public class BrocaliAnimationCaller : ScriptableObject
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    [SerializeField] private GameObject animatorReference;
+    [SerializeField] private Animator animatorReference;
 
-    public BrocaliAnimationCaller(GameObject animator)
+    public BrocaliAnimationCaller(Animator animator)
     {
         this.animatorReference = animator; //assigns temp var to construct
     }
 
     public void fireBrocaliDamage()
     {
-        animatorReference.gameObject.GetComponent<Animator>().SetTrigger("TriggerDamage");
+        animatorReference.SetTrigger("TriggerDamage");
     }
 
     public void fireBrocaliAttack()
     {
-        animatorReference.gameObject.GetComponent<Animator>().SetTrigger("TriggerAttack");
+        animatorReference.SetTrigger("TriggerAttack");
     }
 
     public void fireForceIdle()
     {
-        animatorReference.gameObject.GetComponent<Animator>().SetBool("TriggerIdle", true);
+        animatorReference.SetBool("TriggerIdle", true);
     }
 
 

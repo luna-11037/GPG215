@@ -1389,7 +1389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7d7b50d1b5a0bd48975719d4e3aec05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimTester
-  AnimReference: {fileID: 7528532390571438851}
+  AnimReference: {fileID: 7528532390571438853}
 --- !u!1 &7669610227397958684
 GameObject:
   m_ObjectHideFlags: 0

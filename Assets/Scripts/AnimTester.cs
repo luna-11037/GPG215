@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class AnimTester : MonoBehaviour
 {
-    [SerializeField] private GameObject AnimReference;
+    [SerializeField] private Animator AnimReference;
     private BrocaliAnimationCaller animController; //creates field for later use
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

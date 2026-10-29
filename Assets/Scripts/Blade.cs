@@ -1,28 +1,116 @@
+
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Blade : MonoBehaviour
 {
+    [Header("Input Actions")]
+    public InputActionReference pressAction;
+    public InputActionReference positionAction;
 
-    // Update is called once per frame
+    [Header("References")]
+    public GameObject bladeTrailPrefab;
+
+    [Header("Variables")]
+    public float minCuttingVelocity = 0.001f;
+
+    private bool isCutting = false;
+    private Vector2 previousPosition;
+
+    private GameObject currentBladeTrail;
+
+    private Rigidbody2D rb;
+    private Camera cam;
+    private CircleCollider2D circleCollider;
+
+    void Start()
+    {
+        cam = Camera.main;
+        rb = GetComponent<Rigidbody2D>();
+        circleCollider = GetComponent<CircleCollider2D>();
+
+        circleCollider.enabled = false;
+    }
+
+    void OnEnable()
+    {
+        pressAction.action.Enable();
+        positionAction.action.Enable();
+    }
+
+    void OnDisable()
+    {
+        pressAction.action.Disable();
+        positionAction.action.Disable();
+    }
+
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (pressAction.action.WasPressedThisFrame())
         {
-            StartSlashing();
+            StartCutting();
         }
-        else if (Input.GetMouseButtonUp(0))
+
+        if (isCutting && pressAction.action.IsPressed())
         {
-            StopSlashing();
-        }   
+            UpdateCut();
+        }
+
+        if (pressAction.action.WasReleasedThisFrame())
+        {
+            StopCutting();
+        }
     }
 
-    private void StartSlashing()
+    void UpdateCut()
     {
+        Vector2 screenPosition =
+            positionAction.action.ReadValue<Vector2>();
 
+        Vector2 newPosition = cam.ScreenToWorldPoint(screenPosition);
+
+        rb.position = newPosition;
+
+        float velocity =
+            (newPosition - previousPosition).magnitude /
+            Time.deltaTime;
+
+        circleCollider.enabled = velocity > minCuttingVelocity;
+
+        previousPosition = newPosition;
     }
 
-    private void StopSlashing()
+    void StartCutting()
     {
+        isCutting = true;
 
+        previousPosition = cam.ScreenToWorldPoint(
+            positionAction.action.ReadValue<Vector2>());
+
+        currentBladeTrail = Instantiate(
+            bladeTrailPrefab,
+            transform.position,
+            Quaternion.identity,
+            transform
+        );
+
+        isCutting = true;
+        circleCollider.enabled = false;
+    }
+
+    void StopCutting()
+    {
+        if (!isCutting)
+            return;
+
+        isCutting = false;
+
+        if (currentBladeTrail != null)
+        {
+            currentBladeTrail.transform.SetParent(null);
+            Destroy(currentBladeTrail, 2f);
+        }
+
+        circleCollider.enabled = false;
     }
 }

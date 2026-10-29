@@ -1,41 +1,31 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class BrocaliAnimationCaller : MonoBehaviour
+public class BrocaliAnimationCaller : ScriptableObject
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField] private GameObject animatorReference;
-    private bool runOnce = false;
-    void Start()
-    {
-        Animator animator = GetComponent<Animator>(); //gets animator component in rig 
-        animatorReference.gameObject.GetComponent<Animator>().SetBool("TriggerIdle", true); //makes sure idle triggers from any action
 
+    public BrocaliAnimationCaller(GameObject animator)
+    {
+        this.animatorReference = animator; //assigns temp var to construct
     }
 
-    // Update is called once per frame
-    void Update()
+    public void fireBrocaliDamage()
     {
-        if ((Keyboard.current.wKey.isPressed) && animatorReference != null) 
-        {
-            Debug.Log("anim trigged");
-            animatorReference.gameObject.GetComponent<Animator>().SetBool("TriggerAttack", true);
-
-        }
-        else
-        {
-            animatorReference.gameObject.GetComponent<Animator>().SetBool("TriggerAttack", false);
-        }
-
-        if ((Keyboard.current.sKey.isPressed) && animatorReference != null)
-        {
-            Debug.Log("anim trigged");
-            animatorReference.gameObject.GetComponent<Animator>().SetBool("TriggerDamage", true);
-
-        }
-        else
-        {
-            animatorReference.gameObject.GetComponent<Animator>().SetBool("TriggerDamage", false);
-        }
+        animatorReference.gameObject.GetComponent<Animator>().SetTrigger("TriggerDamage");
     }
+
+    public void fireBrocaliAttack()
+    {
+        animatorReference.gameObject.GetComponent<Animator>().SetTrigger("TriggerAttack");
+    }
+
+    public void fireForceIdle()
+    {
+        animatorReference.gameObject.GetComponent<Animator>().SetBool("TriggerIdle", true);
+    }
+
+
+
 }

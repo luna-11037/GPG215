@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class HealthCaller : MonoBehaviour
 {
@@ -7,11 +8,13 @@ public class HealthCaller : MonoBehaviour
     void Start()
     {
         healthScriptRef.SetHealth(50);
+
     }
 
     // Update is called once per frame
     void Update()
     {
         Debug.Log(healthScriptRef.GetHealth());
+
     }
 }

@@ -99,8 +99,6 @@ public class PlayerMovement : MonoBehaviour
             grounderDistance,
             ~stats.PlayerLayer);
 
-        Debug.Log($"Ground hit: {hitGround}, Is grounded: {isGrounded}");
-
         if (hitRoof)
         {
             playerVelocity.y = Mathf.Min(0,playerVelocity.y);
@@ -157,8 +155,6 @@ public class PlayerMovement : MonoBehaviour
         bufferedJumpUsable= false;
         coyoteUsable= false;
         playerVelocity.y = stats.jumpPower;
-
-        Debug.Log("Jump executed!");
     }
 
     private void HandleDirection()
@@ -210,7 +206,6 @@ public class PlayerMovement : MonoBehaviour
     }
     private void ApplyMovement()
     {
-        Debug.Log("Player velocity: " + playerVelocity);
         rb.linearVelocity = playerVelocity;
     }
 }

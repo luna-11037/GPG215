@@ -6,7 +6,9 @@ public class BossLaser : MonoBehaviour
 {
     [Header("References")]
     //[SerializeField] private GameObject player;
+
     [SerializeField] private Transform playerPosition;
+    public HealthScript playerHealth;
     [SerializeField] private Transform laserOrigin;
     [SerializeField] private LineRenderer laserLine;
     [SerializeField] private LayerMask playerLayer;
@@ -20,6 +22,7 @@ public class BossLaser : MonoBehaviour
     [SerializeField] private float beamLength = 20f;
     [SerializeField] private float turnSpeed = 90f;
     private Vector2 laserDirection;
+    [SerializeField] private float laserDamage = 2f;
 
     private float currentAngle;
     private bool isAttacking;
@@ -101,8 +104,6 @@ public class BossLaser : MonoBehaviour
                 hit.point
             );
 
-            Debug.Log("Laser hit: " + hit.collider.name);
-
             DamagePlayer();
         }
         else
@@ -116,8 +117,8 @@ public class BossLaser : MonoBehaviour
         laserLine.SetPosition(1, endPosition);
     }
 
-    public void DamagePlayer()
+    private void DamagePlayer()
     {
-
+        playerHealth.HandleHealth(laserDamage);
     }
 }

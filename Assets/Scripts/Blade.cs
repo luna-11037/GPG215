@@ -10,9 +10,11 @@ public class Blade : MonoBehaviour
 
     [Header("References")]
     public GameObject bladeTrailPrefab;
+    [SerializeField] private BossHealth bossHealth;
 
     [Header("Variables")]
     public float minCuttingVelocity = 0.001f;
+    public float bladeDamage = 25f;
 
     private bool isCutting = false;
     private Vector2 previousPosition;
@@ -113,4 +115,17 @@ public class Blade : MonoBehaviour
 
         circleCollider.enabled = false;
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        
+        if (bossHealth != null)
+        {
+            if (other.gameObject.layer == 6)
+            {
+                bossHealth.TakeDamage(bladeDamage);
+            }
+        }
+    }
+
 }

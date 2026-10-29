@@ -8,7 +8,8 @@ public class BrocaliAnimationCaller : MonoBehaviour
     private bool runOnce = false;
     void Start()
     {
-        //Animator animator = GetComponent<Animator>(); //gets animator component in rig 
+        Animator animator = GetComponent<Animator>(); //gets animator component in rig 
+        animatorReference.gameObject.GetComponent<Animator>().SetBool("TriggerIdle", true); //makes sure idle triggers from any action
 
     }
 
@@ -24,6 +25,17 @@ public class BrocaliAnimationCaller : MonoBehaviour
         else
         {
             animatorReference.gameObject.GetComponent<Animator>().SetBool("TriggerAttack", false);
+        }
+
+        if ((Keyboard.current.sKey.isPressed) && animatorReference != null)
+        {
+            Debug.Log("anim trigged");
+            animatorReference.gameObject.GetComponent<Animator>().SetBool("TriggerDamage", true);
+
+        }
+        else
+        {
+            animatorReference.gameObject.GetComponent<Animator>().SetBool("TriggerDamage", false);
         }
     }
 }

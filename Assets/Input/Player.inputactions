@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "Player",
+    "maps": [
+        {
+            "name": "Combat",
+            "id": "8239b830-e9c6-4661-800f-ef96b48efa63",
+            "actions": [
+                {
+                    "name": "Press",
+                    "type": "Button",
+                    "id": "fa593b75-f8de-48e1-83c8-7e2b872aab4a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Swipe",
+                    "type": "PassThrough",
+                    "id": "75b7684e-dea2-4011-b2b0-70cb2c2182db",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b97ec48f-463a-41ab-8b3e-7c2c5a5021d7",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2d4754cc-87c8-4ae6-82a9-4a32a2178770",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Swipe",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

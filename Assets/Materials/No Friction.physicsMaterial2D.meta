@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Materials/No Friction.physicsMaterial2D.meta
 guid: 9a8bedbb9cd711e478f81572189c678d
 NativeFormatImporter:
+========
+guid: a57b05211b043bd4092b3a3185cf5f3a
+PrefabImporter:
+>>>>>>>> 86a6b06e015e33aa552660a546f03374fa46ea9c:Assets/Prefabs/Trail.prefab.meta
   externalObjects: {}
   mainObjectFileID: 6200000
   userData: 

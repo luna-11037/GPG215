@@ -13,6 +13,8 @@ public class BossLaser : MonoBehaviour
     [SerializeField] private LineRenderer laserLine;
     [SerializeField] private LayerMask playerLayer;
 
+    [SerializeField] private BrocaliAnimationCaller animation;
+
     [Header("Timing")]
     [SerializeField] private float chargeTime = 1f;
     [SerializeField] private float activeTime = 2f;
@@ -31,6 +33,7 @@ public class BossLaser : MonoBehaviour
     {
         laserLine.enabled = false;
 
+        currentAngle = -90f;
         StartCoroutine(LaserLoop());
     }
 
@@ -40,8 +43,8 @@ public class BossLaser : MonoBehaviour
         {
             yield return new WaitForSeconds(chargeTime);
 
-            isAttacking = true;
             laserLine.enabled = true;
+            isAttacking = true;
 
             yield return new WaitForSeconds(activeTime);
 
@@ -86,6 +89,8 @@ public class BossLaser : MonoBehaviour
 
     private void HandleLaser()
     {
+        animation.PlayAttackAnimation();
+
         RaycastHit2D hit = Physics2D.Raycast(
             laserOrigin.position,
             laserDirection,

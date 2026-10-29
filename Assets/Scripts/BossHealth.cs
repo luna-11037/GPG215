@@ -5,12 +5,16 @@ public class BossHealth : MonoBehaviour
 {
     [SerializeField] private float health = 100f;
 
+    [SerializeField] private BrocaliAnimationCaller animation;
+
     [SerializeField] private HealthBarUI healthBar;
 
     [SerializeField] private TMP_Text winText;
 
     public void TakeDamage(float damage)
     {
+        animation.PlayHitAnimation();
+
         health -= damage;
         healthBar.SetHealthBar(health);
         Debug.Log("Enemy hit! Health: " + health);

@@ -1334,7 +1334,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7147609527481280953}
   - component: {fileID: 7528532390571438853}
-  - component: {fileID: 7528532390571438852}
+  - component: {fileID: 7528532390571438854}
+  - component: {fileID: 7528532390571438855}
   m_Layer: 0
   m_Name: BrocaliBrawler
   m_TagString: Untagged
@@ -1342,19 +1343,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &7528532390571438852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7528532390571438851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5ae340a227d5b5489ac54d49ca40091, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BrocaliAnimationCaller
-  animatorReference: {fileID: 7528532390571438851}
 --- !u!95 &7528532390571438853
 Animator:
   serializedVersion: 7
@@ -1377,6 +1365,31 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7528532390571438854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7528532390571438851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d609dae7c67e6c4c8d9b62487486b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthCaller
+--- !u!114 &7528532390571438855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7528532390571438851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7d7b50d1b5a0bd48975719d4e3aec05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimTester
+  AnimReference: {fileID: 7528532390571438851}
 --- !u!1 &7669610227397958684
 GameObject:
   m_ObjectHideFlags: 0

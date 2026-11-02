@@ -1,18 +1,15 @@
 fileFormatVersion: 2
-guid: f39932322b8d1e7489b0fad9059452df
+guid: 4277687a2d314f942a8e2ab50000f95e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8901842017000291208
-    second: Mushrooms_0
-  - first:
-      213: -4684916708011110980
-    second: Mushrooms_1
+      213: -4636901190031362127
+    second: Water droplet_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -49,18 +46,18 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 465, y: 796, z: 804, w: 358}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -116,45 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mushrooms_0
+      name: Water droplet_0
       rect:
         serializedVersion: 2
-        x: 659
-        y: 743
-        width: 59
-        height: 24
+        x: 468
+        y: 796
+        width: 329
+        height: 444
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88bf2f58622b98b70800000000000000
-      internalID: 8901842017000291208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mushrooms_1
-      rect:
-        serializedVersion: 2
-        x: 673
-        y: 735
-        width: 398
-        height: 333
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cbd84b86315dbfeb0800000000000000
-      internalID: -4684916708011110980
+      spriteID: 1b7389d5fea66afb0800000000000000
+      internalID: -4636901190031362127
       vertices: []
       indices: 
       edges: []
@@ -163,8 +138,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
-    internalID: 0
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
@@ -173,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Mushrooms_0: 8901842017000291208
-      Mushrooms_1: -4684916708011110980
+      Water droplet_0: -4636901190031362127
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

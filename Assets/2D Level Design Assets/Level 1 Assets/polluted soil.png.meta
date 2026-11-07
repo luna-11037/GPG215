@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: 11db9f6b0ef55304eb8ac55c17e065f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7396525078721106875
+    second: polluted soil_0
+  - first:
+      213: -7854136004371724588
+    second: polluted soil_1
+  - first:
+      213: -4284314982573104919
+    second: polluted soil_2
+  - first:
+      213: 5812148529850095815
+    second: polluted soil_3
+  - first:
+      213: -3642516624820596525
+    second: polluted soil_4
+  - first:
+      213: 1493329404091186559
+    second: polluted soil_5
+  - first:
+      213: -4638703225969931619
+    second: polluted soil_6
+  - first:
+      213: -9195174941820923169
+    second: polluted soil_7
+  - first:
+      213: -6177124420599746719
+    second: polluted soil_8
+  - first:
+      213: 1333707261499426526
+    second: polluted soil_9
+  - first:
+      213: 9038262469949737382
+    second: polluted soil_10
+  - first:
+      213: 5686231354460774374
+    second: polluted soil_11
+  - first:
+      213: -7775187013425608943
+    second: polluted soil_12
+  - first:
+      213: 4031775882865639374
+    second: polluted soil_13
+  - first:
+      213: -6946071693690213166
+    second: polluted soil_14
+  - first:
+      213: -3718438611602256202
+    second: polluted soil_15
+  - first:
+      213: -6771344496134069043
+    second: polluted soil_16
+  - first:
+      213: 6770350497967965212
+    second: polluted soil_17
+  - first:
+      213: 1691880686474541453
+    second: polluted soil_18
+  - first:
+      213: -5216355695041722028
+    second: polluted soil_19
+  - first:
+      213: 9074278717480007290
+    second: polluted soil_20
+  - first:
+      213: -4228038065132133194
+    second: polluted soil_21
+  - first:
+      213: 5448477748518781675
+    second: polluted soil_22
+  - first:
+      213: 1144349935757125533
+    second: polluted soil_23
+  - first:
+      213: 7412406836353593113
+    second: polluted soil_24
+  - first:
+      213: -4062102551175853432
+    second: polluted soil_25
+  - first:
+      213: -883930697772965421
+    second: polluted soil_26
+  - first:
+      213: -4744136202609464460
+    second: polluted soil_27
+  - first:
+      213: -846930440133307893
+    second: polluted soil_28
+  - first:
+      213: 2745519145891687030
+    second: polluted soil_29
+  - first:
+      213: 3533068846802701193
+    second: polluted soil_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: polluted soil_0
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 752
+        width: 87
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c6f8e11a34a5990800000000000000
+      internalID: -7396525078721106875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_1
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 853
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d641d1cae0800390800000000000000
+      internalID: -7854136004371724588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_2
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 827
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0a8ddf83e0b84c0800000000000000
+      internalID: -4284314982573104919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_3
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 848
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c816873b46e8a050800000000000000
+      internalID: 5812148529850095815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_4
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 832
+        width: 79
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d01d19bd6e237dc0800000000000000
+      internalID: -3642516624820596525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_5
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 726
+        width: 88
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d30875e2f59b410800000000000000
+      internalID: 1493329404091186559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_6
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 830
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a8a9d2ef300afb0800000000000000
+      internalID: -4638703225969931619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_7
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 776
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2d039cb1d246080800000000000000
+      internalID: -9195174941820923169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_8
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 766
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fe2c83112764aa0800000000000000
+      internalID: -6177124420599746719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_9
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 810
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6480420b7428210800000000000000
+      internalID: 1333707261499426526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_10
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 770
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9491464db5e6d70800000000000000
+      internalID: 9038262469949737382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_11
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 476
+        width: 800
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef92593a4d89ee40800000000000000
+      internalID: 5686231354460774374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_12
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 721
+        width: 71
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11749822b9cf81490800000000000000
+      internalID: -7775187013425608943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_13
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 625
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf7130edceb3f730800000000000000
+      internalID: 4031775882865639374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_14
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 595
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dce231b8989a9f90800000000000000
+      internalID: -6946071693690213166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 381
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bec95ca8c3756cc0800000000000000
+      internalID: -3718438611602256202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_16
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 359
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4e1209e0a5702a0800000000000000
+      internalID: -6771344496134069043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_17
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 341
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14054438ed15fd50800000000000000
+      internalID: 6770350497967965212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_18
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 331
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89b8a73584ca7710800000000000000
+      internalID: 1691880686474541453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_19
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 291
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459c3fef128cb97b0800000000000000
+      internalID: -5216355695041722028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_20
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 308
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76784c7a605eed70800000000000000
+      internalID: 9074278717480007290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_21
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 286
+        width: 76
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b428f6e7cdf255c0800000000000000
+      internalID: -4228038065132133194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_22
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 300
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2051f15a1ec9b40800000000000000
+      internalID: 5448477748518781675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_23
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 300
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d976b8b143c81ef00800000000000000
+      internalID: 1144349935757125533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_24
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 281
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f688bbeb82ed660800000000000000
+      internalID: 7412406836353593113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_25
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 268
+        width: 72
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a84fb604380a7c0800000000000000
+      internalID: -4062102551175853432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_26
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 272
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1ed21b6b5abb3f0800000000000000
+      internalID: -883930697772965421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_27
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 264
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b646d5241792eb0800000000000000
+      internalID: -4744136202609464460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_28
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 262
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02936e70491f34f0800000000000000
+      internalID: -846930440133307893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_29
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 249
+        width: 77
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a68e6ed1b0a1620800000000000000
+      internalID: 2745519145891687030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polluted soil_30
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 246
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b8caca56bf70130800000000000000
+      internalID: 3533068846802701193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      polluted soil_0: -7396525078721106875
+      polluted soil_1: -7854136004371724588
+      polluted soil_10: 9038262469949737382
+      polluted soil_11: 5686231354460774374
+      polluted soil_12: -7775187013425608943
+      polluted soil_13: 4031775882865639374
+      polluted soil_14: -6946071693690213166
+      polluted soil_15: -3718438611602256202
+      polluted soil_16: -6771344496134069043
+      polluted soil_17: 6770350497967965212
+      polluted soil_18: 1691880686474541453
+      polluted soil_19: -5216355695041722028
+      polluted soil_2: -4284314982573104919
+      polluted soil_20: 9074278717480007290
+      polluted soil_21: -4228038065132133194
+      polluted soil_22: 5448477748518781675
+      polluted soil_23: 1144349935757125533
+      polluted soil_24: 7412406836353593113
+      polluted soil_25: -4062102551175853432
+      polluted soil_26: -883930697772965421
+      polluted soil_27: -4744136202609464460
+      polluted soil_28: -846930440133307893
+      polluted soil_29: 2745519145891687030
+      polluted soil_3: 5812148529850095815
+      polluted soil_30: 3533068846802701193
+      polluted soil_4: -3642516624820596525
+      polluted soil_5: 1493329404091186559
+      polluted soil_6: -4638703225969931619
+      polluted soil_7: -9195174941820923169
+      polluted soil_8: -6177124420599746719
+      polluted soil_9: 1333707261499426526
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

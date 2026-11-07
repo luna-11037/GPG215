@@ -1351,8 +1351,8 @@ MonoBehaviour:
   PlayerLayer:
     serializedVersion: 2
     m_Bits: 8
-  maxSpeed: 10
-  acceleration: 100
+  maxSpeed: 8
+  acceleration: 80
   groundDeceleration: 50
   airDeceleration: 25
   fallAcceleration: 85
@@ -1360,8 +1360,8 @@ MonoBehaviour:
   groundingForce: -1.5
   jumpPower: 25
   jumpEndedEarlyGravity: 3
-  jumpBuffer: 0.2
-  coyoteTime: 0.2
+  jumpBuffer: 0.5
+  coyoteTime: 0.5
 --- !u!114 &472935816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1490,7 +1490,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &756833999
 MonoBehaviour:
   m_ObjectHideFlags: 0

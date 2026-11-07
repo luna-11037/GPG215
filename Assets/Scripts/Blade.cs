@@ -123,7 +123,7 @@ public class Blade : MonoBehaviour
         {
             if (other.gameObject.layer == 6)
             {
-                bossHealth.TakeDamage(bladeDamage);
+                bossHealth.HandleHealth(bladeDamage);
             }
         }
     }

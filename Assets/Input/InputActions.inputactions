@@ -41,6 +41,17 @@
                 },
                 {
                     "name": "",
+                    "id": "7d87d8cc-7fda-4588-b584-3f8655bdba92",
+                    "path": "<Joystick>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "a612a661-3a1a-444d-b220-652c6f1f36e7",
                     "path": "<Gamepad>/buttonEast",
                     "interactions": "",

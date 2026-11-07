@@ -96,6 +96,8 @@ public class Blade : MonoBehaviour
             transform
         );
 
+
+
         isCutting = true;
         circleCollider.enabled = false;
     }
@@ -123,7 +125,7 @@ public class Blade : MonoBehaviour
         {
             if (other.gameObject.layer == 6)
             {
-                bossHealth.TakeDamage(bladeDamage);
+                bossHealth.HandleHealth(bladeDamage);
             }
         }
     }

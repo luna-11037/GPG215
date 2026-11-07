@@ -11,7 +11,7 @@ public class BossHealth : MonoBehaviour
 
     [SerializeField] private TMP_Text winText;
 
-    public void TakeDamage(float damage)
+    public void HandleHealth(float damage)
     {
         animation.PlayHitAnimation();
 

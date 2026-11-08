@@ -96,6 +96,8 @@ public class Blade : MonoBehaviour
             transform
         );
 
+
+
         isCutting = true;
         circleCollider.enabled = false;
     }

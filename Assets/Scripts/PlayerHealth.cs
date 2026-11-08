@@ -12,7 +12,7 @@ public class PlayerHealth : MonoBehaviour, IHealth
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
-    protected void HandleHealth(float damage)
+    public void HandleHealth(float damage)
     {
         health -= damage;
 

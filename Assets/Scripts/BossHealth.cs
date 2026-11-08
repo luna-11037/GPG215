@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-public class BossHealth : MonoBehaviour, IHealth
+public class BossHealth : MonoBehaviour
 {
     [SerializeField] private float health = 100f;
 
@@ -25,7 +25,7 @@ public class BossHealth : MonoBehaviour, IHealth
         }
     }
 
-    protected void HandleDeath()
+    private void HandleDeath()
     {
         Destroy(this.gameObject);
 

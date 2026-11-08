@@ -2,7 +2,7 @@ using System;
 using TMPro;
 using UnityEngine;
 
-public class PlayerHealth : MonoBehaviour, IHealth
+public class PlayerHealth : MonoBehaviour
 {
     public float health = 100f;
 
@@ -29,7 +29,7 @@ public class PlayerHealth : MonoBehaviour, IHealth
         return health;
     }
 
-    protected void HandleDeath()
+    private void HandleDeath()
     {
         loseText.text = "You lose.";
         GameManager.Instance.EndGame();

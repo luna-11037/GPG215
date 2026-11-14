@@ -2,8 +2,7 @@ using System;
 using TMPro;
 using UnityEngine;
 
-//HealthScript mightttt throw an error about ExtensionOfNativeClass, this is just because it doesn't inhrerit monobehaviour or Scriptable Object in Public Class Healthscript, doesn't really matter
-public class HealthScript : MonoBehaviour 
+public class PlayerHealth : MonoBehaviour, IHealth
 {
     public float health = 100f;
 
@@ -30,7 +29,7 @@ public class HealthScript : MonoBehaviour
         return health;
     }
 
-    private void HandleDeath()
+    protected void HandleDeath()
     {
         loseText.text = "You lose.";
         GameManager.Instance.EndGame();

@@ -8,7 +8,7 @@ public class BossLaser : MonoBehaviour
     //[SerializeField] private GameObject player;
 
     [SerializeField] private Transform playerPosition;
-    public HealthScript playerHealth;
+    [SerializeField] PlayerHealth playerHealth;
     [SerializeField] private Transform laserOrigin;
     [SerializeField] private LineRenderer laserLine;
     [SerializeField] private LayerMask playerLayer;
